@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#Menu-Superior{
+    background-color: #303030;
+    padding: 200px;
+    padding-left: 62px;
+    
+    
+}
+
+#Titulo-Superior{
+    color: #fff;
+    font-size: 60px;
+    
+}
+
+#Texto-Superior{
+    color: #fff;
+    font-size: 20px;
+}
+
+#Menu-informativo{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 90px 70px 77px 170px;
+   
+  
+}
+
+.Texto-informativo{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+#Menu-historia{
+    background-color: #fff;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 100px 90px 100px 150px;
+    
+}
+
+#Titulo-historia{
+    font-size: 40px;
+    font-weight: 500px;
+}
+
+#Texto-historia{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+#Apartamento{
+    height: 600px;
+}
+
+#Menu-formulário{
+    background-color: #303030;
+    text-align: center;
+}
+
+#Texto-formulário{
+    color: #fff;
+    padding: 90px 0px 40px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700px;
+    
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    margin: 25px;
+    border-radius: 10px;
+    padding-left: 20px;
+    
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    background: #C07212;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 25px  0px 50px;
+    border: 0px;
+}
+
+button:hover {
+    background-color: #f39c32e3;
+    color: #8d5004;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgba(131, 95, 50, 0.664);
+    transition-duration: 0.2s ;
+}
